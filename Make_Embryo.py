@@ -47,7 +47,7 @@ def row_to_dict(row):
     data_dict = {
         row[1]: {
            "material": "GHAST_TEAR",
-            "title": f"&5&l{row[1]}(原胚)",
+            "title": f"&5&l{row[1]}",
             "lore": [
                 f"-public/test/{row[1]}原胚",
                 Quality_mapping[row[2]],
