@@ -53,8 +53,6 @@ def row_to_dict(row):
         for i in range(36, 46):
             if row[i] is not None:
                 data_dict[row[1]]["lore"].append(f"&b{sheet.cell(row=1, column=i + 1).value} &7&l+{row[i]}")
-
-                #print(f"&b&l{sheet.cell(row=1, column=i + 1).value} &7&l+{row[i]}")
             else:
                 print(f"{row[1]}矿物质属性不全诶？")
     else:
